@@ -1,0 +1,31 @@
+###
+GET http://localhost:3000/api/slider/
+
+###
+GET http://localhost:3000/api/slider/1
+
+
+###
+POST http://localhost:3000/api/slider/
+Content-Type: application/json
+
+{
+  "title":"textos titulo api 3",
+  "description": "textos description api 3",
+  "url_video": "textos url_video api 3",
+  "url_animation": "textos  url_animation api 3"
+}
+
+###
+PUT http://localhost:3000/api/slider/1
+Content-Type: application/json
+
+{
+  "title":"textos titulo bd",
+  "description": "textos description bd",
+  "url_video": "textos url_video api bd",
+  "url_animation": "textos  url_animation bd"
+}
+
+###
+DELETE http://localhost:3000/api/slider/3
